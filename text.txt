@@ -1,0 +1,10 @@
+Hello today we are going to build a text to speech service which will use :-
+1. S3
+2. Polly
+3. Aws Lambda
+
+We will have two S3 buckets, one in which the text files will be uploaded and then that uploadation 
+will act as an event source for triggering the lambda function which which then take the text from .txt file
+and send it to polly to convert it to mp3 file and then upload that mp3 file to the s3 second bucket.
+
+Thanks.
